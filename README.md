@@ -23,6 +23,14 @@ change `sam_the_admin.py`:
 ## OS TEST
 ![image](https://user-images.githubusercontent.com/16593068/146142564-5d573b4e-549e-4ae0-9bfd-72d5fce67108.png)
 
+```bash
+
+Nmap scan report for 172.16.242.135
+88/tcp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2021-12-15 07:45:26Z)
+135/tcp   open  msrpc        Microsoft Windows RPC
+389/tcp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: jas502n.com, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds Windows Server 2012 R2 Datacenter 9600 microsoft-ds (workgroup: JAS502N)
+```
 
 usage:
 
