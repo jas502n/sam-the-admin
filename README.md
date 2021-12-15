@@ -222,8 +222,17 @@ C:\Users\Administrator>
 new_computer_name = f"SAMTHEADMIN-{random.randint(1,100)}$" 
 ```
 
-
 ![image](https://user-images.githubusercontent.com/16593068/146151192-cb3e107a-0800-4427-b12e-52d99cb9c9b3.png)
+
+Change Random 7 str , like `DETKSTOP-xxxxxxx`
+
+```python
+
+new_computer_name = f"DESKTOP-{''.join(random.sample(string.ascii_letters + string.digits, 7))}$" 
+```
+
+![image](https://user-images.githubusercontent.com/16593068/146152468-8fae7118-c231-4daf-8e0b-d2c7ead85647.png)
+
 
 
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
