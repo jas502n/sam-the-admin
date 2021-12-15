@@ -181,6 +181,13 @@ SAMTHEADMIN-78$:des-cbc-md5:b6c8865764e65734
 ```
 
 
+### Check `Default container for upgraded computer accounts`  >>> `SAMTHEADMIN-xxx`
+
+![image](https://user-images.githubusercontent.com/16593068/146150047-ec267c55-3ffe-40cd-97d3-09942dbd59b9.png)
+
+![image](https://user-images.githubusercontent.com/16593068/146150156-c300b353-a0ee-41ed-8910-cd094edf5429.png)
+
+
 
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
 
