@@ -198,7 +198,6 @@ SAMTHEADMIN-78$:des-cbc-md5:b6c8865764e65734
 
 ### Check `Default container for upgraded computer accounts`  >>> `SAMTHEADMIN-xxx`
 
-`sam_the_admin.py` >>> ```python new_computer_name = f"SAMTHEADMIN-{random.randint(1,100)}$" ```
 
 ![image](https://user-images.githubusercontent.com/16593068/146150047-ec267c55-3ffe-40cd-97d3-09942dbd59b9.png)
 
@@ -215,6 +214,12 @@ SAMTHEADMIN-18$          SAMTHEADMIN-39$          SAMTHEADMIN-59$
 
 
 C:\Users\Administrator>
+
+`sam_the_admin.py` >>> 
+
+```python 
+new_computer_name = f"SAMTHEADMIN-{random.randint(1,100)}$" 
+```
 
 ```
 ![image](https://user-images.githubusercontent.com/16593068/146151192-cb3e107a-0800-4427-b12e-52d99cb9c9b3.png)
