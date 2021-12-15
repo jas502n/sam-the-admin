@@ -234,7 +234,7 @@ new_computer_name = f"DESKTOP-{''.join(random.sample(string.ascii_letters + stri
 ![image](https://user-images.githubusercontent.com/16593068/146152468-8fae7118-c231-4daf-8e0b-d2c7ead85647.png)
 
 
-一个账号可以打10次，然后就失败了, 解决版本： 把机器名删掉即可。
+一个账号可以打10次，然后就失败了, 解决办法： 把机器名删掉即可。
 
 https://cloudbrothers.info/en/exploit-kerberos-samaccountname-spoofing/
 
@@ -254,7 +254,8 @@ Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
 [-] Machine not found in LDAP: DESKTOP-VTBspLr$
 Kerberos SessionError: KDC_ERR_PREAUTH_FAILED(Pre-authentication information was invalid)
 ```
-
+关于 smbexec 服务存在报错，删除 BTOBTO 默认服务即可
+![image](https://user-images.githubusercontent.com/16593068/146174578-97991b51-4692-43a3-83f0-53646751e6b3.png)
 
 
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
