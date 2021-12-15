@@ -214,6 +214,7 @@ SAMTHEADMIN-18$          SAMTHEADMIN-39$          SAMTHEADMIN-59$
 
 
 C:\Users\Administrator>
+```
 
 `sam_the_admin.py` >>> 
 
@@ -221,7 +222,7 @@ C:\Users\Administrator>
 new_computer_name = f"SAMTHEADMIN-{random.randint(1,100)}$" 
 ```
 
-```
+
 ![image](https://user-images.githubusercontent.com/16593068/146151192-cb3e107a-0800-4427-b12e-52d99cb9c9b3.png)
 
 
